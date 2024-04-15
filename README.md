@@ -1,7 +1,7 @@
 //Task By
 RootIt Solutions
 
-//Builgt By
+//Built By
 Ragul Arvind.D
 
 //Technologies Used
