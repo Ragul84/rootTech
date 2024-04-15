@@ -9,7 +9,6 @@ const Services = () => {
     <div id="services" className="services bg-violet-200 rounded-lg  flex flex-col ">
       {/* First Row */}
       <div className="flex justify-between items-center border-b-2 border-gray-300 px-6 py-4">
-        {/* Text Section */}
         <div className="flex-1 pr-6">
           <h1 className="font-bold text-lg mb-2">Gate Security Control</h1>
           <p className="text-sm text-black font-thin p-2 m-2">
@@ -33,19 +32,16 @@ const Services = () => {
             </button>
           </div>
         </div>
-        {/* Image Section */}
-        <div className="flex-1">
+\        <div className="flex-1">
           <img src={first} alt="Gate Security Control" />
         </div>
       </div>
 
       {/* Second Row */}
       <div className="flex justify-between items-center border-b-2 border-gray-300 px-6 py-4 flex-row">
-        {/* Image Section */}
         <div className="flex-1 pl-6">
           <img src={second} alt="Canteen Management" />
         </div>
-        {/* Text Section */}
         <div className="flex-1">
           <h1 className="font-bold text-lg mb-2">Canteen Management</h1>
           <p className="text-sm text-black font-thin p-2 m-2">
@@ -75,7 +71,6 @@ const Services = () => {
 
       {/* Third Row */}
       <div className="flex justify-between items-center border-b-2 border-gray-300 px-6 py-4">
-        {/* Text Section */}
         <div className="flex-1 pr-6">
           <h1 className="font-bold text-lg mb-2">Hotel Management</h1>
           <p className="text-sm text-black font-thin p-2 m-2">
@@ -101,7 +96,6 @@ const Services = () => {
             </button>
           </div>
         </div>
-        {/* Image Section */}
         <div className="flex-1">
           <img src={third} alt="Hotel Management" />
         </div>
@@ -109,11 +103,10 @@ const Services = () => {
 
       {/* Fourth Row */}
       <div className="flex justify-between items-center px-6 py-4">
-        {/* Image Section */}
+
         <div className="flex-1 pl-6">
           <img src={fourth} alt="Quality Control" />
         </div>
-        {/* Text Section */}
         <div className="flex-1">
           <h1 className="font-bold text-lg mb-2">Quality Control</h1>
           <p

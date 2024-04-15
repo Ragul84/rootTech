@@ -1,7 +1,7 @@
 import React from 'react'
 import { MailIcon, PhoneIcon, MapIcon } from '@heroicons/react/solid'
 import fourth from './map.png'
-import { PaperAirplaneIcon as InstagramIcon } from '@heroicons/react/outline' // Using PaperAirplane for Instagram as a placeholder
+import { PaperAirplaneIcon as InstagramIcon } from '@heroicons/react/outline' 
 import { AtSymbolIcon as TwitterIcon } from '@heroicons/react/outline'
 import { IdentificationIcon as LinkedInIcon } from '@heroicons/react/outline'
 import { ThumbUpIcon as FacebookIcon } from '@heroicons/react/outline'
@@ -37,9 +37,7 @@ const About = () => {
       </div>
       <div className="bg-gray-700 mx-auto mt-3  p-6 rounded-lg shadow-xl text-white overflow-hidden relative w-full max-w-6xl">
         {' '}
-        {/* Limited width container with rounded corners */}
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>{' '}
-        {/* Semi-transparent overlay */}
         <div className="relative z-10 flex justify-between items-center">
           <div>
             <h2 className="text-3xl font-bold">

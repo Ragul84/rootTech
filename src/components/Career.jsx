@@ -2,9 +2,9 @@ import React from 'react';
 
 const Career = () => {
   return (
-    <div id="career" className="bg-white  flex justify-center items-center m-10"> {/* Full screen white background with centered content */}
-      <div className="lets  p-6 rounded-lg shadow-xl text-white overflow-hidden relative w-full max-w-4xl"> {/* Limited width container with rounded corners */}
-        <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div> {/* Semi-transparent overlay */}
+    <div id="career" className="bg-white  flex justify-center items-center m-10"> 
+      <div className="lets  p-6 rounded-lg shadow-xl text-white overflow-hidden relative w-full max-w-4xl"> 
+        <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div> 
         <div className=" relative z-10 flex justify-between items-center">
           <div>
             <h2 className="text-3xl font-bold">Let's Discuss</h2>
